@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "classattendance"
+version = "1.0.0"
+description = "Class attendance using face recognition"
+authors = ["Ashok Pant <asokpant@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.111.0"
+opencv-python = "^4.10.0.82"
+numpy = "^1.26.4"
+python-multipart = "^0.0.9"
+uvicorn = "^0.30.1"
+requests = "^2.32.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^8.2.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

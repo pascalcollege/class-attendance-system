@@ -1,0 +1,9 @@
+.idea
+dist
+node_modules
+*.log.*
+*.log
+target
+*.iml
+**__pycache__**
+**.DS_Store**
